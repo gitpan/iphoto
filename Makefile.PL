@@ -1,4 +1,4 @@
-# $Id: Makefile.PL,v 1.1.1.1 2004/02/20 14:36:19 comdog Exp $
+# $Id: Makefile.PL,v 1.2 2004/02/22 06:21:34 comdog Exp $
 use ExtUtils::MakeMaker;
 
 eval "use Test::Manifest";
@@ -21,7 +21,7 @@ my $script_name = "iphoto";
 
 WriteMakefile(
 	'NAME'      => $script_name,
-	'VERSION'   => '0.10',
+	'VERSION'   => '0.12',
 
 	'EXE_FILES' =>  [ $script_name ],
 		
